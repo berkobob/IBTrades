@@ -16,6 +16,7 @@ public class IBTradesController implements ActionListener{
 		this.view = view;
 		this.data = data;
 		if (DEBUG) System.out.println("Instantiating Controller");
+		System.err.println("This should print to the error log!?!");
 		view.setActionListener(this);
 	}
 
